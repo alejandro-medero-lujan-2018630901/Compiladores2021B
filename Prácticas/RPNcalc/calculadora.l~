@@ -1,0 +1,6 @@
+%{
+  #include "calculadora.tab.h"
+%}
+%%
+[0-9]   {return NUM;}
+
